@@ -1,7 +1,7 @@
 {
   "name": "@hsg-le/sbo-data",
   "version": "0.0.1",
-  "main": "lib/SboData.js",
+  "main": "dist/SboData.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/preset-env": "7.1.6",
     "eslint-config-es": "0.9.1",
-    "roboter": "1.1.0"
+    "roboter": "2.2.0"
   },
   "directories": {
     "lib": "lib"
