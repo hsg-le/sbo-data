@@ -1,7 +1,6 @@
 {
   "name": "@hsg-le/sbo-data",
   "version": "0.0.0",
-  "description": "",
   "main": "lib/SboData.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,17 @@
     "@babel/preset-env": "7.1.6",
     "eslint-config-es": "0.9.1",
     "roboter": "1.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsg-le/sbo-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hsg-le/sbo-data/issues"
+  },
+  "homepage": "https://github.com/hsg-le/sbo-data#readme",
+  "description": ""
 }
