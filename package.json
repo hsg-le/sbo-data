@@ -1,0 +1,19 @@
+{
+  "name": "@hsg-le/sbo-data",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/SboData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joachim Haecker-Becker",
+  "dependencies": {
+    "check-types": "7.4.0",
+    "superagent": "3.8.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.1.6",
+    "eslint-config-es": "0.9.1",
+    "roboter": "1.1.0"
+  }
+}
