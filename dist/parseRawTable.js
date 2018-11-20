@@ -18,7 +18,7 @@ var parseRawTable = function parseRawTable(raw) {
         lost: rawEntry.numLostGames,
         draw: rawEntry.numEqualGames,
         goalsShot: rawEntry.numGoalsShot,
-        goalsGot: rawEntry.numGoalsShot
+        goalsGot: rawEntry.numGoalsGot
       };
       table.push(_.merge(entry, parsed));
     });

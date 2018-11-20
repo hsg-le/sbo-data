@@ -1,6 +1,6 @@
 {
   "name": "@hsg-le/sbo-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/SboData.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
