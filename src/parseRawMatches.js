@@ -45,6 +45,8 @@ const parseRawMatches = function(raw, homeGymNos) {
         match.away = true;
         match.opponent = rawMatch.gHomeTeam;
       }
+
+      matches.push(match);
     });
 
     return matches;
