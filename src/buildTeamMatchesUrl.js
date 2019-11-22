@@ -1,5 +1,7 @@
 const buildTeamMatchesUrl = function(id) {
-  return `https://h4a.it4sport.de/spo/spo-proxy_public.php?cmd=data&lvTypeNext=team&lvIDNext=${id}`;
+  const part = 'cmd=data&lvTypeNext=team';
+
+  return `${this.baseUrl}?${part}&lvIDNext=${id}`;
 };
 
 module.exports = buildTeamMatchesUrl;

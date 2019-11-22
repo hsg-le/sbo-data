@@ -10,6 +10,8 @@ const readRawTable        = require('./readRawTable');
 const parseRawTable       = require('./parseRawTable');
 const getTable            = require('./getTable');
 
+const baseUrl = 'https://api.h4a.mobi/spo/spo-proxy_public.php';
+
 class SboData {
   constructor(params) {
     check.assert.object(params, 'params is not an object');
@@ -26,6 +28,8 @@ class SboData {
     this.getTable            = getTable.bind(this);
 
     Object.assign(this, params);
+
+    this.baseUrl = baseUrl;
   }
 }
 
