@@ -20,6 +20,8 @@ var parseRawTable = require('./parseRawTable');
 
 var getTable = require('./getTable');
 
+var baseUrl = 'https://api.h4a.mobi/spo/spo-proxy_public.php';
+
 var SboData = function SboData(params) {
   _classCallCheck(this, SboData);
 
@@ -34,6 +36,7 @@ var SboData = function SboData(params) {
   this.parseRawTable = parseRawTable.bind(this);
   this.getTable = getTable.bind(this);
   Object.assign(this, params);
+  this.baseUrl = baseUrl;
 };
 
 module.exports = SboData;
